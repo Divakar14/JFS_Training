@@ -1,0 +1,24 @@
+img{
+    float: left;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right:10px;
+}
+
+#header{
+    border: 2px solid black; 
+    padding-left:10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: rgba(1, 14, 48, 0.767);
+    color:white;
+}
+
+#Details{
+    border: 2px solid black; 
+    padding-left:10px;
+    background-color: rgba(1, 14, 48, 0.767);
+    color:white;
+}
