@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  div#left_nav{
+    float : left;
+  }
+
+  div#right_nav{
+    float:right;
+    margin-top: -5px;
+  }
+
+
+  header {
+    background-color: #172035;
+    color: white;
+    padding: 35px;
+  }
+
+  header h2  {
+    margin-left: 100px;
+    margin-top: -13px;
+  }
+
+  img#logo { 
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 100px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height:60px;
+    width:70px;
+}
+
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+
+  img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .awards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .award {
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .award h3 {
+    margin-top: 50px;
+  }
+
+  .news {
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  .news h2 {
+    margin-bottom: 20px;
+  }
+
+  .news p {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #172035;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    height:0px;
+  }
+
+  footer p{
+    margin-top: -5px; 
+  }
