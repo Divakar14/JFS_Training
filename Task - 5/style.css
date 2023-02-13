@@ -1,0 +1,259 @@
+*{
+    font-family: Roboto,sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+} 
+
+body{
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    background: transparent;
+    width: 89%;
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 90px;
+}
+
+#bt{
+    display: inline;
+    color: white;
+}
+
+.header-nav a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    top: 8px; 
+}
+
+.First-Section{
+    background-color: black;
+    position: relative;
+    text-align: center;
+    color: white;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#image1{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 30px;   
+    right: 40px;
+}
+
+.St1{
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    left: 90px; 
+    z-index: 1;
+}
+
+
+#heading{
+    text-align: left;
+    font-size: 12px;
+}
+
+#para{
+    text-align: left;
+    width:230px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#arrow{
+    color: white;
+}
+
+#explore{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding:8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    bottom: 110px;
+}
+
+#explore i:hover{
+    transform: scale(1.5);
+}
+
+#book{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding:8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top:12px;
+    left:500px;
+}
+
+#book i:hover{
+    transform: scale(1.5);
+}
+
+.label{
+    color: white;
+    padding-left:8px;
+}
+
+
+.Second-Section{
+    background-color: black;
+    width: 89%;
+    height: 600px;
+}
+
+
+#image2{
+    float: right;  
+    width:750px;
+    height: 450px;
+    position: relative;
+    top:40px;
+    left: 148px;
+}
+
+.St2{
+    color: white;
+    position: absolute;
+    top:910px;
+    left:  90px; 
+    z-index: 1;
+}
+
+#heading{
+    text-align: left;
+    font-size: 14px;
+}
+
+#para1{
+    text-align: left;
+    width:500px;
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+}
+
+#para2{
+    text-align: left;
+    width:460px;
+    font-size: 16px;
+    position: relative;
+    bottom: 60px;
+}
+
+#watch-image{
+    z-index: 1;
+    position: relative;
+    top: 400px;
+    left: 74px; 
+}
+
+#fuel-image{
+    z-index: 1;
+    position: relative;
+    top: 395px;
+    left: 250px; 
+}
+
+#sub-1{
+    width:160px;
+    text-align: left;
+    position: relative;
+    top:80px;
+}
+
+#sub-2{
+    width:160px;
+    text-align: left;
+    position: relative;
+    bottom: -10px;
+    left:250px;
+}
+
+.Third-Section{
+    background-color:black;
+    height: 100px;
+}
+
+#image3{
+    width:790px;
+    height: 600px;  
+    position: absolute;
+    left:-140px;
+}
+
+.St3{
+    color: white;
+    position: absolute;
+    top: 1550px;
+    left: 750px;
+    z-index: 1;
+}
+
+#hp-sub1{
+    margin-top: 0px;
+
+}
+
+#h-r{
+    float:left;
+    margin-top: -40px;
+    width : 30px;
+    height: 7px;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+footer{
+    margin-top:500px;
+    background-color: black;
+    width:89%;
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.foot-nav {
+    height: 30px;
+    display: flex;
+    background: transparent;
+    justify-content: space-evenly;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.foot-nav a:hover{
+    cursor: pointer;
+    transform:scale(1.5);
+}
+
