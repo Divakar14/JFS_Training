@@ -7,6 +7,7 @@
     <title></title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/310a56fbe6.js"></script>
     
 </head>
@@ -30,7 +31,7 @@
     <br><br><br>
 
     <div class = "First-Section" id = "Section1">
-        <div class = "St1">
+        <div class = "St1" data-aos="fade-up" data-aos-duration="3000">
             <p id = "heading">TUNING PERFECTION</p> 
             <p id = "para"><b>Tuning is an upgrade that unlocks hidden potential of your car</b></p>
         </div>
@@ -47,7 +48,7 @@
 
     <div class = "Second-Section" id="Section2">
         <img id = "image2" src = "img/img2.png">
-        <div class = "St2">
+        <div class = "St2" data-aos="flip-up" data-aos-duration="3000">
             <p id = "heading">WHY DO YOU WANT IT?</p> 
             <p id = "para1"><b>What is Tuning and Why do You Want It?</b></p>
             <p id = "para2">
@@ -63,14 +64,16 @@
                 With proper tuning, you can increase fuel economy.
             </p>
         </div>
-        <img id = "watch-image" src="img/img4.jpg">
-        <img id = "fuel-image" src="img/img5.jpg">
+        <div data-aos="flip-up" data-aos-duration="3000">
+            <img id = "watch-image" src="img/img4.jpg">
+            <img id = "fuel-image" src="img/img5.jpg">
+        </div>
 
     </div>
 
     <div class = "Third-Section" id = "Section3">
         <img id = "image3" src = "img/img3.jpg">
-        <div class = "St3">
+        <div class = "St3" data-aos="zoom-in-up" data-aos-duration="3000">
             <p id = "heading">ADVANTAGES</p> 
             <p id = "para1">What can I Expect from Tuning?</p>
             <p id = "heading" style="position:relative;bottom:47px;"> What can I Expect from Tuning? </p>
@@ -120,6 +123,8 @@
         </span>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init(); </script>
 
 </body>
 </html>
