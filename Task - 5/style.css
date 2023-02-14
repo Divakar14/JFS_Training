@@ -24,10 +24,6 @@ header{
     margin-left: 90px;
 }
 
-#bt{
-    display: inline;
-    color: white;
-}
 
 .header-nav a{
     display: inline;
@@ -43,12 +39,6 @@ header{
     position: relative;
     text-align: center;
     color: white;
-    animation: fadeIn 5s;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
 }
 
 #image1{
